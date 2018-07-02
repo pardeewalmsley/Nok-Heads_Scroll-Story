@@ -1,0 +1,366 @@
+html {
+    line-height: 1;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+caption, th, td {
+    text-align: left;
+    font-weight: normal;
+    vertical-align: middle;
+}
+
+q, blockquote {
+    quotes: none;
+}
+
+body {
+    text-align: center;
+    background: #000;
+}
+
+#header {
+  -webkit-transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -o-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+  opacity: 100;
+  left: 0;
+}
+
+#header img {
+  width: 100vw;
+  margin-bottom: 100px;
+}
+
+#header h1 {
+    font: 50px 'Futura';
+    color: #fff;
+    width: 500px;
+    bottom: 0;
+    margin-left: 5%;
+    margin-bottom: 350px;
+    padding: 10px;
+    position: absolute;
+    text-align: left;
+}
+
+#header h2 {
+    font: 24px 'Georgia';
+    color: #ccc;
+    width: 450px;
+    bottom: 0;
+    margin-left: 5%;
+    margin-bottom: 10%;
+    padding: 10px;
+    position: absolute;
+    text-align: left;
+}
+
+#arrow {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+}
+#arrow img {
+  margin: 0 auto;
+  width: 100px;
+}
+
+.slideshow {
+  width: 100%;
+}
+
+#slideshowImageOne {
+  position: absolute;
+  -webkit-transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -o-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+  opacity: 100;
+  left: 0;
+  width: 100vw;
+}
+
+#slideshowImageTwo {
+  position: absolute;
+  -webkit-transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -o-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+  opacity: 100;
+  left: 0;
+  width: 100vw;
+}
+
+#slideshowImageThree {
+  position: absolute;
+  -webkit-transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -o-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+  opacity: 100;
+  left: 0;
+  width: 100vw;
+}
+
+#slideshowImageFour {
+  position: absolute;
+  -webkit-transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -o-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+  opacity: 100;
+  left: 0;
+  width: 100vw;
+}
+
+#slideshowImageFive {
+  position: absolute;
+  -webkit-transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -o-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+  opacity: 100;
+  left: 0;
+  width: 100vw;
+}
+
+#slideshowImageOne.transparent {
+  opacity: 0;
+}
+
+#slideshowImageTwo.transparent {
+  opacity: 0;
+}
+#slideshowImageThree.transparent {
+  opacity: 0;
+}
+#slideshowImageFour.transparent {
+  opacity: 0;
+}
+#slideshowImageFive.transparent {
+  opacity: 0;
+}
+
+#globe {
+  margin-left: 5vw;
+  margin-top: 20px;
+}
+
+#globe img {
+  width: 45vw;
+}
+
+.aside {
+	float: left;
+	padding: 0 20px;
+	width: 260px;
+}
+
+.row {
+	margin-bottom: 40px;
+	padding-bottom: 40px;
+	position: relative;
+}
+
+.stickem-container {
+  width: 100vw;
+  position: relative;
+  background: #000;
+}
+
+.stickit {
+	position: fixed;
+	top: 0;
+}
+
+.stickit-end {
+	bottom: 40px;
+	position: absolute;
+}
+
+.mapWrap {
+  width: 100%;
+}
+
+#map {
+  width: 100vw;
+  height: 100vh;
+}
+
+.stuck {
+  position:fixed;
+  top:0;
+}
+
+#introduction {
+  background: rgba(255, 255, 255, 0.5);
+  padding: 40px;
+  position: relative;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  border-radius: 2px;
+  -webkit-border-radius: 8px;
+          border-radius: 8px;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+#introduction h1 {
+    font: 20pt 'Futura';
+    text-align: center;
+    color: #000
+}
+
+#introduction h2 {
+  font: 26pt 'Georgia';
+  text-align: center;
+  color: #000
+}
+
+#introduction p {
+    font: 14pt / 26pt 'Georgia';
+    color: #000;
+    text-align: left;
+    margin-top: 20px
+}
+
+#supply {
+  left: 0 auto;
+  margin-left: 4%;
+  position: relative;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 40px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  border-radius: 2px;
+  -webkit-border-radius: 8px;
+          border-radius: 8px;
+  max-width: 400px;
+}
+
+#supply h1 {
+  font: 20pt 'Futura';
+  text-align: left;
+  color: #000
+}
+
+#supply h2 {
+  font: 26pt 'Georgia';
+  text-align: left;
+  color: #000
+}
+
+#supply p {
+    font: 14pt / 26pt 'Georgia';
+    color: #000;
+    text-align: left;
+    margin-top: 20px
+}
+
+#transfer {
+  margin-left: auto;
+  position: relative;
+  margin-right: 2%;
+  padding: 40px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  max-width: 400px;
+}
+
+#transfer h1 {
+  font: 20pt 'Futura';
+  text-align: left;
+  color: #fff
+}
+
+#transfer h2 {
+  font: 26pt 'Georgia';
+  text-align: left;
+  color: #fff
+}
+
+#transfer p {
+    font: 14pt / 26pt 'Georgia';
+    color: #fff;
+    text-align: left;
+    margin-top: 20px
+}
+
+#demand {
+  left: 0 auto;
+  margin-left: 4%;
+  position: relative;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 40px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  border-radius: 2px;
+  -webkit-border-radius: 8px;
+          border-radius: 8px;
+  max-width: 400px;
+}
+
+#demand h1 {
+  font: 20pt 'Futura';
+  text-align: left;
+  color: #000
+}
+
+#demand h2 {
+  font: 26pt 'Georgia';
+  text-align: left;
+  color: #000
+}
+
+#demand p {
+    font: 14pt / 26pt 'Georgia';
+    color: #000;
+    text-align: left;
+    margin-top: 20px
+}
+
+#conclusion {
+  margin: 0 auto;
+  position: relative;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 40px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  border-radius: 2px;
+  -webkit-border-radius: 8px;
+          border-radius: 8px;
+  max-width: 800px;
+}
+
+#conclusion h1 {
+  font: 20pt 'Futura';
+  text-align: center;
+  color: #000
+}
+
+#conclusion h2 {
+  font: 26pt 'Georgia';
+  text-align: center;
+  color: #000
+}
+
+#conclusion p {
+    font: 14pt / 26pt 'Georgia';
+    color: #000;
+    text-align: left;
+    margin-top: 20px
+}
